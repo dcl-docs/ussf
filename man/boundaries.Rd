@@ -4,10 +4,10 @@
 \alias{boundaries}
 \title{Boundaries for U.S. states, counties, or commuting zones}
 \source{
-U.S. Census Bureau. \href{https://www2.census.gov/geo/tiger/GENZ2018/shp/}{2018 Cartographic Boundary Shapefiles.}
+U.S. Census Bureau. \href{https://www2.census.gov/geo/tiger/GENZ2018/shp/}{2018 Cartographic Boundary Shapefiles}.
 
 USDA Economic Research Service.
-\href{https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/}{1990 Commuting Zones.}
+\href{https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/}{1990 Commuting Zones}.
 }
 \usage{
 boundaries(

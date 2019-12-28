@@ -28,9 +28,9 @@
 #' @examples
 #' counties <- boundaries(geography = "county")
 #'
-#' @source U.S. Census Bureau. \href{https://www2.census.gov/geo/tiger/GENZ2018/shp/}{2018 Cartographic Boundary Shapefiles.}
+#' @source U.S. Census Bureau. \href{https://www2.census.gov/geo/tiger/GENZ2018/shp/}{2018 Cartographic Boundary Shapefiles}.
 #' @source USDA Economic Research Service.
-#' \href{https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/}{1990 Commuting Zones.}
+#' \href{https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/}{1990 Commuting Zones}.
 boundaries <- function(
   geography = c("state", "county", "cz"),
   resolution = c("20m", "5m", "500k"),
