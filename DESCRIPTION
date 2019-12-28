@@ -1,0 +1,25 @@
+Package: ussf
+Title: U.S. boundaries for states, counties, and commuting zones
+Description: U.S. boundaries for states, counties, and commuting zones as
+  sf objects. Derived from U.S. Census Bureau 2018 cartographic boundaries.
+Version: 0.1.0.9000
+Authors@R: 
+  person(
+    given = "Bill",
+    family = "Behrman", 
+    email = "behrman@stanford.edu", 
+    role = c("aut", "cre")
+  )
+URL: https://github.com/dcl-docs/ussf
+BugReports: https://github.com/dcl-docs/ussf/issues
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  R (>= 2.10)
+Imports:
+  stringr
+Suggests:
+  testthat (>= 2.1.0)
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE)
