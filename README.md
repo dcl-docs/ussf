@@ -1,7 +1,5 @@
 # U.S. Boundaries
 
------------------
-
 U.S. boundaries for states, counties, and commuting zones as sf objects. Derived from U.S. Census Bureau 2018 cartographic boundaries.
 
 You can install this R package with:
