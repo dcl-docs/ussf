@@ -43,8 +43,6 @@ albers_alaska <-
   "+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +datum=WGS84 +no_defs"
 albers_hawaii <-
   "+proj=aea +lat_1=8 +lat_2=18 +lat_0=13 +lon_0=-157 +x_0=0 +y_0=0 +datum=WGS84 +no_defs"
-  # Output file compression
-compress <- "gz"
   # Temporary directory
 tmp <- str_glue("{tempdir()}/2019_county_state")
 

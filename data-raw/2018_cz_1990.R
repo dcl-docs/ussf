@@ -72,8 +72,6 @@ rename_cz <-
   c(
     "34103" = "Valdez-Cordova"
   )
-  # Output file compression
-compress <- "gz"
   # Temporary directory
 tmp <- str_glue("{tempdir()}/2019_cz_1990")
 
