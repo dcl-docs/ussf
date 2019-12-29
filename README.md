@@ -5,8 +5,8 @@ U.S. boundaries for states, counties, and commuting zones as sf objects. Derived
 You can install this R package with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("dcl-docs/ussf")
+# install.packages("remotes")
+remotes::install_github("dcl-docs/ussf")
 ```
 
 Boundaries are available for each combination of the following:
