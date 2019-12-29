@@ -132,9 +132,13 @@ for (resolution in resolutions) {
   unzip(zipfile = dest, exdir = str_glue("{tmp}/{boundary}"))
 
   # sf object for commuting zones for states and District of Columbia
-  us <-
+  v <- 
     read_sf(dsn = str_glue("{tmp}/{boundary}/{boundary}.shp")) %>%
-    filter(STATEFP %in% fips_states) %>%
+    filter(STATEFP %in% fips_states)
+  stopifnot(all(v$GEOID %in% cz$fips_county))
+  
+  us <-
+    v %>%
     left_join(cz, by = c("GEOID" = "fips_county")) %>%
     group_by(cz_1990, place, state) %>%
     summarize() %>%

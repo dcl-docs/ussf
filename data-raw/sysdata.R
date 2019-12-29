@@ -21,6 +21,8 @@ file_out <- here::here("R/sysdata.rda")
 source(script_state_country)
 source(script_cz)
 
+stopifnot(length(ls(pattern = var_pattern)) == 18)
+
 save(
   list = ls(pattern = var_pattern),
   file = file_out,
