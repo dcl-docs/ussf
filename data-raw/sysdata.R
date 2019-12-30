@@ -3,9 +3,6 @@
 # Author: Bill Behrman
 # Version: 2019-12-27
 
-# Libraries
-library(tidyverse)
-
 # Parameters
   # Script to create boundaries for states and counties
 script_state_country <- here::here("data-raw/2018_state_county.R")
