@@ -8,7 +8,6 @@
 library(tidyverse)
 library(readxl)
 library(sf)
-library(stringr)
 
 # Parameters
   # Boundary year
